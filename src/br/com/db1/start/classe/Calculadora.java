@@ -74,11 +74,11 @@ public class Calculadora extends JFrame implements ActionListener {
 			}
 
 			// nao sei como resetar as caixas de digitar o numero.
-			if (e.getSource() == btResetar)
-				;
-			{
-
+			if (e.getSource() == btResetar) {
+				tfNumero1.setText("");
+				tfNumero2.setText("");
 			}
+
 		} catch (Exception e2) {
 			JOptionPane.showMessageDialog(null, "Digite valores validos!");
 		}
